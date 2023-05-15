@@ -1,6 +1,6 @@
 import { Test, TestingModule } from '@nestjs/testing';
-import { ImagesController } from './images.controller';
-import { ImagesService } from './images.service';
+import { ImagesController } from './image.controller';
+import { ImagesService } from './image.service';
 
 describe('ImagesController', () => {
   let controller: ImagesController;
